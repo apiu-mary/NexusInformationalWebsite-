@@ -18,4 +18,15 @@ jobs:
         with:
           node-version: '18'
           
-    
+      - name: Install Packages
+        working-directory: nexus-informational
+        run: npm install
+
+      - name: Build
+        working-directory: nexus-informational
+        run: npm run build
+      
+      - name: Run Tests
+        working-directory: nexus-informational
+        run: npm test
+
