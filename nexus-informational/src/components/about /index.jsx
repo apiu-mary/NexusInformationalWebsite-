@@ -10,11 +10,12 @@ const About = ()=> {
       
       <p className='text' data-testid= "text">
       Welcome to the future of energy management with the <strong>Nexus Interface Unit.</strong>
-      <br/>
-      This innovative device offers real-time power monitoring, providing you with <br/> constant updates on your power capacity and insights to enhance your energy management.<br/> It introduces a groundbreaking power-sharing feature, addressing situations where electricity<br/>
-      resources are limited and enabling seamless collaboration with neighboring users. <br/>
-      Our mission is clear: to empower hydro mini-grid users in rural Kenya,<br/> revolutionizing the way they plan and monitor their power consumption. <br/>
-      <br/>
+      This innovative device offers real-time power monitoring,providing you with constant updates on your power capacity 
+      and insights to enhance your energy management.It introduces a groundbreaking power-sharing feature, addressing situations 
+      where electricity resources are limited and enabling seamless collaboration with neighboring users. 
+      
+      Our mission is to empower hydro mini-grid users in rural Kenya, revolutionizing the way they plan and monitor their power consumption. 
+      
 
       </p>
       <div className='shapes'>
