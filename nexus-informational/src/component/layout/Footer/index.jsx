@@ -1,5 +1,8 @@
 import React from 'react';
 import './style.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -8,7 +11,13 @@ const Footer = () => {
       <div className="logo">
         <img src='/img/images/Logoicon.png' alt="Logo" className='logf'/>
       </div>
-        <div className="social-icons">
+      <div className="social-icons">
+        <div className="linkedin-icon">
+            <FontAwesomeIcon icon={faLinkedin} className="fa-2x linkedin-icon-text" />
+          </div>
+          <div className="facebook-icon">
+              <FontAwesomeIcon icon={faFacebook} className="fa-2x facebook-icon-text" />
+            </div>
         </div>
       </div>
       <div className="footer-contact">
