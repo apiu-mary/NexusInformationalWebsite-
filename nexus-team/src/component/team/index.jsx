@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+
 const TeamMember = ({ imageSrc, name, role }) => {
   return (
     <div className="card">
@@ -9,6 +10,7 @@ const TeamMember = ({ imageSrc, name, role }) => {
     </div>
   );
 };
+
 const Team = () => {
   return (
     <section className="team-section">
@@ -45,4 +47,5 @@ const Team = () => {
     </section>
   );
 };
+
 export default Team;
