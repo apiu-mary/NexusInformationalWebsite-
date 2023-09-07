@@ -3,7 +3,7 @@ import './style.css';
 
 const TeamMember = ({ imageSrc, name, role }) => {
   return (
-    <div className="card">
+    <div className="card" data-testid="team-member">
       <img src={imageSrc} alt={name} className="member-image" />
       <h2 className="member-name">{name}</h2>
       <p className="member-role">{role}</p>
