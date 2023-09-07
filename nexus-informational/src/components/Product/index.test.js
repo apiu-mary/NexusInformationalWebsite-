@@ -6,7 +6,7 @@ describe("Product Component", ()=>{
 
   test('renders Product component in the App component', () => {
     render(<Product />);
-  
+    
     expect(screen.getByText("What We Do")).toBeInTheDocument();
     expect(screen.getByText("Current Units")).toBeInTheDocument();
     expect(screen.getByText("By utilizing the Nexus Interface Unit, users gain the ability to conveniently view their present power units")).toBeInTheDocument();
