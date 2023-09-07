@@ -1,0 +1,47 @@
+.home {
+    position: relative;
+    text-align: center;
+  }
+  .home img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 80vh;
+    opacity: 0.99;
+    margin-top: -0.1%;
+    margin-left: 0.1%;
+  }
+  .home h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Halant;
+  }
+  .home h1 {
+    font-size: 70px;
+    margin-top: 1%;
+    letter-spacing: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .home {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+@media screen and (max-width: 768px) {
+  .home img {
+      height: 60vh;
+  }
+  .home h1 {
+    font-size: 40px;
+    margin-top: -6%;
+}
+}
+
+
+
+
+
