@@ -1,6 +1,6 @@
 import React from "react";
+import './style.css';
 
-import './style.css'
 const Product = ()=>{
     return(
         <div>
@@ -13,7 +13,6 @@ const Product = ()=>{
                 </div>
                 <div>
                     <img src="images/octicon_history-24.png"/>
-              
                     <h3 data-testid="title2">Power History</h3>
                     <p data-testid="text2">The Nexus Interface Unit offers a capability to display users power history</p>
                 </div>
