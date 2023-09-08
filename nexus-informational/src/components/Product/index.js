@@ -9,7 +9,7 @@ const Product = ()=>{
                 <div>
                 <img src="images/Vector.png"/>
                     <h3 data-testid="title1">Current Units</h3>
-                    <p data-testid="text1">By utilizing sers gain the ability to conveniently view their present power units</p>
+                    <p data-testid="text1">By utilizing users gain the ability to conveniently view their present power units</p>
                 </div>
                 <div>
                     <img src="images/octicon_history-24.png"/>
