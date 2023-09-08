@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-left">
       <div className="logo">
-        <img src='/img/images/Logoicon.png' alt="Logo" className='logf'/>
+        <img src='/img/images/nexuswhite.png' alt="logo" className='logf'/>
       </div>
       <div className="social-icons">
         <div className="linkedin-icon">
@@ -21,15 +21,15 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-contact">
-        <h4>Contact Us</h4>
+        <h3>Contact Us</h3>
         <p>+254742325744</p>
         <p>niunexuss@gmail.com</p>
         <p>Nairobi, Kenya</p>
       </div>
       <div className="footer-support">
-        <h4>Support</h4>
-          <li>FAQs</li>
-          <li>Terms</li>
+      <h3>Support</h3>
+          <p>FAQs</p>
+          <p>Terms</p>
           <li>Privacy</li>
       </div>
       <div className="footer-newsletter">

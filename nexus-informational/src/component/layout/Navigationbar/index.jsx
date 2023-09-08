@@ -1,4 +1,7 @@
+
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import './style.css';
 
 const Navbar = () => {
@@ -12,13 +15,11 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${menuOpen ? 'open' : ''}`}>
       <div className="logo">
-        <img src='/img/images/Logo.png
-        ' alt="Logo" />
+        <img src='/img/images/Logo.png' alt="Logo" />
       </div>
+    
       <div className="menu-icon" onClick={toggleMenu}>
-        <div className="bar"></div>
-        <div className="bar"></div>
-        <div className="bar"></div>
+        <FontAwesomeIcon icon={faTimes} />
       </div>
       <ul className={`nav-links ${menuOpen ? 'active' : ''}`} onClick={closeMenu}>
         <li><a href="#home">Home</a></li>
@@ -29,4 +30,5 @@ const Navbar = () => {
     </nav>
   );
 }
+
 export default Navbar;
