@@ -15,7 +15,7 @@ describe('Footer component', () => {
 
   it('displays the logo', () => {
     const { getByAltText } = render(<Footer />);
-    const logo = getByAltText('Logo');
+    const logo = getByAltText('logo');
     
    
     expect(logo).toBeInTheDocument();
