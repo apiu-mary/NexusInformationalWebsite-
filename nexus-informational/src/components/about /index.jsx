@@ -5,6 +5,7 @@ const About = ()=> {
   return (
     <div>
       <div className='body'>
+      {/* <div className='about'> */}
           <h2 className='title'>Why Nexus?</h2>
     <div className='about'>
       <div>
