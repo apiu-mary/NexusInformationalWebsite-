@@ -57,155 +57,85 @@
     margin-top: 4%;
 }
 @media screen and (max-width: 280px){
-    .body{
-        margin-top: -5%;
-        background-color: rgb(233, 242, 251);
-        height: auto;
-        
-    }
     .about {
         flex-direction: column;
         align-items: center;
-        
+       
     }
 
     .square1,
     .square2,
     .circle {
-        width: 0%;
-        height: auto; 
+        width: 300px;
+        height: 300px;
         margin-top: 0;
         margin-left: 0;
-        
-    }
-    .square1{
-        width: 100px;
-        height: 100px;
-        margin-top: 15%;
-        background-color: #2B39BD;
-    }
-    .square2{
-        width: 200px;
-        height: 200px;
-        margin-top: -84%;
-        margin-left: -30%;
-        background-color: black;
-    }
-    
-    .circle{
-        width: 200px;
-        height: 200px;
-        margin-top: -80%;
-        margin-left: -62%;
-        border-radius: 400px;
-        background-color: rgb(233, 230, 230);
-        filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
     }
 
     .title {
-        text-align: center;
-        margin-bottom: 5%;
-        font-family: "Halant";
-        font-size: 30px; 
+        margin-left: 0;
+        margin-top: 5%;
+        font-size: 30px;
     }
 
     .text {
-        padding-left: 5%;
-        padding-right: 5%;
-        font-size: 100%; 
-        margin-top: -2%;
-        width: 91%;
+        width: 80%;
+        padding-left: 0;
         font-family: "Halant";
+        font-size: 35px; 
+        margin-top: 3%;
         line-height: 1.5;
     }
 
     .pic {
-        margin-left: 20%;
-        margin-right: auto;
-        margin-top: 3.5%;
-        width: 60%;
+        margin-top: 5%;
+        margin-left: 0;
     }
 
     .shapes {
-        padding-right: 0; 
-        margin-left: 27%;
-        display: block; 
+        padding-right: 0;
+        margin-top: 3%;
     }
 }
 @media (max-width: 820px) {
-    .body{
-        margin-top: -5%;
-        background-color: rgb(233, 242, 251);
-        height: auto;
-        
-    }
     .about {
         flex-direction: column;
         align-items: center;
-        
+       
     }
 
     .square1,
     .square2,
     .circle {
-        width: 0%;
-        height: auto; 
+        width: 300px;
+        height: 300px;
         margin-top: 0;
         margin-left: 0;
-        
-    }
-    .square1{
-        width: 200px;
-        height: 200px;
-        margin-top: 15%;
-        background-color: #2B39BD;
-    }
-    .square2{
-        width: 200px;
-        height: 200px;
-        margin-top: -84%;
-        margin-left: -30%;
-        background-color: black;
-    }
-    
-    .circle{
-        width: 200px;
-        height: 200px;
-        margin-top: -80%;
-        margin-left: -62%;
-        border-radius: 400px;
-        background-color: rgb(233, 230, 230);
-        filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
     }
 
     .title {
-        text-align: center;
-        margin-bottom: 5%;
-        font-family: "Halant";
-        font-size: 30px; 
+        margin-left: 0;
+        margin-top: 5%;
+        font-size: 30px;
     }
 
     .text {
-        padding-left: 5%;
-        padding-right: 5%;
-        font-size: 100%; 
-        margin-top: -2%;
-        width: 91%;
+        width: 80%;
+        padding-left: 0;
         font-family: "Halant";
+        font-size: 35px; 
+        margin-top: 3%;
         line-height: 1.5;
     }
 
     .pic {
-        margin-left: 20%;
-        margin-right: auto;
-        margin-top: 3.5%;
-        width: 60%;
+        margin-top: 5%;
+        margin-left: 0;
     }
 
     .shapes {
-        padding-right: 0; 
-        margin-left: 27%;
-        display: block; 
+        padding-right: 0;
+        margin-top: 3%;
     }
 }
 
@@ -308,22 +238,22 @@
         
     }
     .square1{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         margin-top: 15%;
         background-color: #2B39BD;
     }
     .square2{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         margin-top: -84%;
         margin-left: -30%;
         background-color: black;
     }
     
     .circle{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         margin-top: -80%;
         margin-left: -62%;
         border-radius: 400px;
@@ -341,7 +271,7 @@
     .text {
         padding-left: 5%;
         padding-right: 5%;
-        font-size: 25px; 
+        font-size: 100%; 
         margin-top: 5%;
         width: auto;
         font-family: "Halant";
@@ -357,7 +287,7 @@
 
     .shapes {
         padding-right: 0; 
-        margin-left: 15%;
+        margin-left: 10%;
         display: block; 
     }
 }
