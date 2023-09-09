@@ -3,8 +3,9 @@
   height: 497px;
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
-  width: 100%;
+  margin-top: -3%;
+  position: absolute;
+  width: 97.9%;
   align-items: center;
   justify-content: center;
   padding: 0 20px;
@@ -12,6 +13,7 @@
 
  
 }
+
 .background h1{
   font-weight: 600;
   font-size: 64px;
