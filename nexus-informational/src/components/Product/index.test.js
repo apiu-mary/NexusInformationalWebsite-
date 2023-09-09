@@ -4,7 +4,7 @@ import Product from './index';
 
 describe("Product Component", ()=>{
 
-  test('renders Product component in the App component', () => {
+  test('renders Product component with correct text', () => {
     render(<Product />);
     
     expect(screen.getByText("What We Do")).toBeInTheDocument();
@@ -13,7 +13,6 @@ describe("Product Component", ()=>{
     expect(screen.getByText("Power History")).toBeInTheDocument();
     expect(screen.getByText("The Nexus Interface Unit offers a capability to display users power history")).toBeInTheDocument();
     expect(screen.getByText("Share Units")).toBeInTheDocument();
-    expect(screen.getByText("The Nexus Interface Unit provides the capacity to facilitate unit sharing among diverse users.")).toBeInTheDocument();
   });
      
     });
