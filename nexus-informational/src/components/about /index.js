@@ -5,9 +5,9 @@ const About = ()=> {
   return (
     <div>
       <div className='body'>
-          <h2 className='title'>Why Nexus?</h2>
     <div className='about'>
       <div>
+      <h2 className='title'>Why Nexus?</h2>
       <p className='text' data-testid= "text">
       Welcome to the future of energy management with the Nexus Interface Unit.
       This innovative device offers real-time power monitoring,providing you with constant updates on your power capacity 
