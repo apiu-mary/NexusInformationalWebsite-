@@ -27,6 +27,7 @@
   
   .products h3 {
     font-size: 18px;
+    font-family: "Halant";
     margin-bottom: 10px;
     color: #2B39BD;
   }
@@ -38,6 +39,7 @@
   
   .products p {
     font-size: 17px;
+    font-family: "Halant";
   }
   
   @media screen and (max-width: 1024px) {

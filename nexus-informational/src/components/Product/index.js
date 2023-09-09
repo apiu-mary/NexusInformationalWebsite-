@@ -19,7 +19,7 @@ const Product = ()=>{
                 <div>
                <img src="images/molecule.png" alt=""/>
                     <h3 data-testid="title3">Share Units</h3>
-                    <p data-testid="text3">The Nexus Interface Unit provides the capacity to facilitate unit sharing among diverse users.</p>
+                    <p data-testid="text3">The Nexus Interface Unit provides the capacity to facilitate unit sharing .</p>
                 </div>
             </div>
         </div>
