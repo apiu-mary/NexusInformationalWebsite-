@@ -1,20 +1,19 @@
 import './App.css';
-import Navbar from './component/layout/Navigationbar';
-
-import Footer from './component/layout/Footer';
-
-
+import Footer from './components/Footer';
+import Home from './components/home';
+import About from './components/about ';
+import Navbar from './components/Navigationbar';
 
 
 
 function App() {
+
   return (
-    <div className="App">
+    <div>
       <Navbar/>
+      <Home/>
+      <About/>
       <Footer/>
-
-
-     
     </div>
   );
 }
