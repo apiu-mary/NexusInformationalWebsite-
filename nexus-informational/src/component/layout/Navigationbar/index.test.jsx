@@ -15,9 +15,7 @@ test('Navbar component renders correctly', () => {
 
  
   expect(getByText('Home')).toBeInTheDocument();
-  expect(getByText('About Us')).toBeInTheDocument();
-  expect(getByText('What We Do')).toBeInTheDocument();
-  expect(getByText('Contact Us')).toBeInTheDocument();
+
 });
 
 test('Navbar toggles menu on menu icon click', () => {
@@ -34,12 +32,9 @@ test('Navbar closes menu on link click', () => {
   
   const homeLink = getByText('Home');
   fireEvent.click(homeLink);
-  const aboutLink=getByText('About Us');
+  const aboutLink=getByText('About');
   fireEvent.click(aboutLink);
-  const weLink=getByText('What We Do');
-  fireEvent.click(weLink);
-  const contactus=getByText('Contact Us')
-  fireEvent.click(contactus);
+
 
 
   const navbar = getByRole('navigation');

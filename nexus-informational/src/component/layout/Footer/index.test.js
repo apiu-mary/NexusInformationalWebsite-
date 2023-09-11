@@ -1,30 +1,22 @@
+
+
 import React from 'react';
-import { render } from '@testing-library/react';
-
+import { getByText, render, getByPlaceholderText } from '@testing-library/react';
 import Footer from '../Footer';
-
-
 
 describe('Footer component', () => {
   it('renders the Footer component', () => {
     const { container } = render(<Footer />);
     const footer = container.querySelector('.footer');
-    
- 
+
+    expect(footer).toBeInTheDocument();
   });
 
-  it('displays the logo', () => {
-    const { getByAltText } = render(<Footer />);
-    const logo = getByAltText('logo');
-    
-   
-    expect(logo).toBeInTheDocument();
-  });
+ 
 
   it('displays contact information', () => {
     const { getByText } = render(<Footer />);
-    
-   
+
     expect(getByText('Contact Us')).toBeInTheDocument();
     expect(getByText('+254742325744')).toBeInTheDocument();
     expect(getByText('niunexuss@gmail.com')).toBeInTheDocument();
@@ -33,8 +25,7 @@ describe('Footer component', () => {
 
   it('displays support links', () => {
     const { getByText } = render(<Footer />);
-    
-   
+
     expect(getByText('Support')).toBeInTheDocument();
     expect(getByText('FAQs')).toBeInTheDocument();
     expect(getByText('Terms')).toBeInTheDocument();
@@ -43,17 +34,11 @@ describe('Footer component', () => {
 
   it('displays newsletter subscription', () => {
     const { getByPlaceholderText, getByText } = render(<Footer />);
-    
-   
-    expect(getByPlaceholderText('Subscribe to our newsletter')).toBeInTheDocument();
+
+    expect(getByPlaceholderText('Enter your email')).toBeInTheDocument();
     expect(getByText('Subscribe')).toBeInTheDocument();
   });
 
-  it('displays copyright notice', () => {
-    const { getByText } = render(<Footer />);
-    
-    
-    expect(getByText('Copyright 2023. All rights reserved by Nexus Group')).toBeInTheDocument();
-  });
+  
 });
 

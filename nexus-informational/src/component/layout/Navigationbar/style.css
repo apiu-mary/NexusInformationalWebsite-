@@ -1,132 +1,280 @@
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: #E1EBE4;
-    color: #000000;
-    font-size: 24px;
-  }
-  .logo img {
-    width: 160px;
-    height: auto;
-    margin-left: 10%;
-    margin-bottom: 28x;
-    margin-top: -4em;
-    margin-left: 18px;
-  }
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 90px;
-    margin-right: 10%;
-  }
-  .nav-links a {
-    text-decoration: none;
-    color: #000000;
-  }
-  
-  .navbar {
+
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+.navbar-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
-  background-color: #E1EBE4;
-  color: #000000;
-  font-size: 20px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  }
-  .menu-icon {
+  color: black;
+  margin-left: 4%;
+  margin-right: 8.3%;
+  margin-top: 1%;
+}
+.logo-img  {
+  width:100px;
+  /* height: 70px; */
+  margin-top: 10%;
+  margin-left: -110%;
+}
+
+.hamburger-menu {
   display: none;
   cursor: pointer;
-  }
-  .bar {
+}
+.hamburger-menu.open .bar {
+  background-color: white;
+}
+.hamburger-menu.open .close-icon {
+  display: block;
+}
+.bar {
   width: 30px;
-  height: 3px;
-  background-color: #000;
+  height: 4px;
+  background-color: #031707;
   margin: 6px 0;
   transition: 0.4s;
-  }
-  .nav-links {
-  list-style: none;
+}
+.close-icon {
+  display: none;
+  position: relative;
+  width: 30px;
+  height: 4px;
+  margin: 6px 0;
+  transition: 0.4s;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.close-icon span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #031707;
+  transition: transform 0.2s ease;
+}
+.close-icon span:first-child {
+  top: 0;
+  transform: rotate(45deg);
+}
+.close-icon span:last-child {
+  top: 0;
+  transform: rotate(-45deg);
+}
+.centered-links {
   display: flex;
-  gap: 50px;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  margin-right: -28%;
+  text-decoration: none;
+}
+.centered-links a {
+  color: black;
+  padding: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 30%;
+}
+.centered-links a:hover {
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+.nav-list.open {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.nav-list li {
+  margin-bottom: 10px;
+}
+.nav-list a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+.nav-list a:hover {
+  color: black;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+@media (max-width: 760px) {
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
   }
-  .nav-links a:hover {
-  color: #2B39BD; 
+  .navbar-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
   }
-  @media (max-width: 768px) {
-  .menu-icon {
-    display: block;
+  .brand-container {
+    margin: 10px 0;
   }
-  .nav-links {
+  .nav-list {
     display: none;
     flex-direction: column;
+    align-items: center;
+    width: 120%;
     position: absolute;
-    top: 70px;
+    top: 100%;
+    margin-left: -20px;
     left: 0;
-    width: 100%;
-    background-color: #E1EBE4;
- 
-    margin-top: -1em;
+    background-color: #fff;
+    transition: 0.4s;
+    z-index: 1;
   }
-  .nav-links.active {
+  .nav-list.open {
     display: flex;
+    text-align: left;
   }
+  .centered-links {
+    display:block;
+    justify-content: center;
+    gap: 200px;
+    width: 1000px;
+    height: 1000px;
   }
-  @media (width: 375px) and (height: 667px) {
-    .logo img {
-      width: 100px;
-      height: auto;
+  .nav-list li {
+    margin-bottom: 15px;
+  }
+  .nav-list a {
+    margin: 0;
+    padding: 10px;
+  }
+  .nav-list a:hover {
+    padding: 10px;
+  }
+  .brand-container {
+    font-size: 24px;
+  }
+  .logo-img {
+    width: 80px;
+ 
+    margin-left: -10%;
+  }
+  .bar {
+    width: 20px;
+    height: 3px;
+    margin: 4px 0;
+  }
+  .close-icon {
+    width: 20px;
+    height: 3px;
+    margin: 4px 0;
+  }
+  .close-icon span {
+    height: 2px;
+  }
+}
+@media (max-width: 834px) {
+  .centered-links {
+  }
+  .logo-img {
+    width: 80px;
+  
+    margin-left: -10%;
+  }
+}
+@media (max-width: 768px) {
+  .centered-links {
+  }
+  .logo-img {
+    width: 80px;
+    
+ }
+}
+@media (max-width: 1280px) {
+  .centered-links {
+  }
+  .logo-img {
+    width: 80px;
 
+    margin-left: 1%;
+  }
+  @media (width: 820px) and (height: 1180px) {
+    .nav-list{
+      margin-right: 60px;
+    
+      
+    
+   
+    }
+
+  }
+}
+@media (width: 1280px) and (height: 800px) {
+  .nav-list{
+    margin-right: 60px;
+  }
+  .footer{
+    
+    margin-bottom: 0;
+ 
+  }
+  @media (width: 1024px) and (height: 600px) {
+    .nav-list{
+      margin-right: 90px;
     }
    
       
-    }
-    @media (width: 414px) and (height: 896px) {
-      .logo img {
-        width: 100px;
-        height: auto;
-  
-      }
      
-        
-      }
-      @media (width: 540px) and (height: 720px) {
-        .logo img {
-          width: 100px;
-          height: auto;
+   
+    }
+
+  }
+  @media (width: 912px) and (height: 1168px) {
+    .nav-list{
+   
     
-        }
-       
-          
-        }
-        @media (width: 412px) and (height: 915px) {
-          .logo img {
-            width: 100px;
-            height: auto;
       
-          }
-         
-            
-          }
-          @media (width: 393px) and (height: 851px) {
-            .logo img {
-              width: 100px;
-              height: auto;
-        
-            }
-           
-              
-            }
-            @media (width: 390px) and (height: 844px) {
-              .logo img {
-                width: 100px;
-                height: auto;
-          
-              }
-             
-                
-              }
+    
+   
+    }
+
+  }
+  @media (width: 768px) and (height: 1024px) {
+    .centered-links{
+      margin-right: -50px;
+     
+    
+   
+
+    }
+  }
+  @media (width: 912px) and (height: 1368px) {
+   .centered-links{
+    margin-right: -40px;
+    
+
+   }
+   .footer{
+    margin-top: -400px;
+   }
+   
+  }
+  @media (width: 1024px) and (height: 600px) {
+    .centered-links{
+     margin-right: -40px;
+    }
+   }
+
