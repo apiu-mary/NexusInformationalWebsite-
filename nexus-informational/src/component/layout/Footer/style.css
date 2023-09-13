@@ -164,11 +164,8 @@
  
   }
 }
-@media (width: 912px) and (height: 1368px) {
-  .footer{
-    margin-top: 40%;
-  }
-}
+
+
 @media (width: 1024px) and (height: 600px) {
   .footer{
     font-size: 20px;
@@ -212,6 +209,7 @@
     color: #333;
   }
 }
+
 @media (width: 414px) and (height: 896px) {
 
 .footer-logo{
@@ -258,14 +256,141 @@
 
               .footer-logo{
                 margin-left: 5px;
+              } @media (width: 280px) and (height: 653px) {
+   
+                /* Default styles for 1280x800 screens */
+            
+            
+            .square1 {
+                width: 200px;
+                height: 200px;
+                margin-top: 390%;
+                margin-left: -150%;
+                background-color: #2B39BD;
+            } 
+            
+            .square2 {
+                width: 200px;
+                height: 200px;
+                margin-top: -655%;
+                margin-left: -299%;
+                background-color: black;
+            } 
+            
+             .circle {
+                width: 200px;
+                height: 200px;
+                margin-top: -649%;
+               margin-left: -400%;
+                border-radius: 400px;
+                background-color: rgb(233, 230, 230);
+                filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
+            } 
+            
+            
+            
+            
+            
+            .shapes {
+                padding-right: 10%;
+                margin-top: 4%;
+                margin-top: -39%;
+                margin-left: -14%;
+                width: 10%;
+            } 
+            
+                
+               
+               }
+               @media (width: 820px) and (height: 1180px) {
+                
+                .about {
+                    display: flex;
+                    background-color: #E9F2FB;
+                    margin-top: -3%;
+                    justify-content: space-between;
+                    padding: 20px;
+                    margin-top: 40%;
+                  
+                    
+                }
+                
+                .body {
+                    overflow-x: hidden;
+                }
+               
+                
+                .square1 {
+                    width: 400px;
+                    height: 400px;
+                    margin-top: 600%;
+                    margin-left: 60%;
+                    background-color: #2B39BD;
+                }
+                
+                .square2 {
+                    width: 400px;
+                    height: 400px;
+                    margin-top: -295%;
+                    margin-left: 25%;
+                    background-color: black;
+                }
+                
+                .circle {
+                    width: 400px;
+                    height: 400px;
+                    margin-top: -279%;
+                   
+                    border-radius: 400px;
+                    background-color: rgb(233, 230, 230);
+                    filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
+                }
+                
+                .title {
+                    margin-left: 21%;
+                    margin-top: -1%;
+                    padding: auto;
+                    font-size: 40px;
+                    font-family: 'Halant';
+                    color: #2B39BD;
+                    font-weight: bold;
+                }
+                
+                .text {
+                    /* width: 50%; */
+                    padding-left: 10%;
+                    font-size: 30px;
+                    margin-top: 1%;
+                    font-family: 'Halant';
+                    line-height: 2;
+                }
+                
+                .pic {
+                    margin-top: 3.5%;
+                    margin-left: 17.9%;
+                 
+                }
+                
+                .shapes {
+                    padding-right: 10%;
+                    margin-top: 4%;
+                    margin-top: -59%;
+                    margin-left: -48%;
+                    width: 10%;
+                }
+                
+                    
+                   
+                   }
+               
               }
-              }
-              @media (width: 768px) and (height: 1024px) {
+              /* @media (width: 768px) and (height: 1024px) {
 
                 .footer-logo{
                   margin-left: 5px;
                 }
-                }
+               
+                } */
                 @media (width: 540px) and (height: 720px) {
 
                   .footer-logo{
@@ -310,6 +435,26 @@
                         }
                          
                          }
+                         @media (width: 912px) and (height: 1368px) {
+                          .footer-support, .footer-contact{
+                            margin-left: -30px;
+                          
+                           }
+                           .footer-newsletter{
+                            margin-left: 90px;
+                           }
+                           .footer-copyright{
+                            margin-right: 50px;
+                           }
+                            
+                            }
+                   
+                         
+                           
+                           
+      
+      
+      
                         
 
 

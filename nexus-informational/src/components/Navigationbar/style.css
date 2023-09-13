@@ -4,6 +4,7 @@ ul, li {
   list-style: none;
   margin: 0;
   padding: 0;
+  
 
 }
 .navbar-wrapper {
@@ -106,7 +107,7 @@ ul, li {
   transition: background-color 0.3s, color 0.3s;
 }
 .nav-list a:hover {
-  color: black;
+  color: blue;
   border-radius: 5px;
   padding: 10px 20px;
 }
@@ -131,6 +132,7 @@ ul, li {
   }
   .brand-container {
     margin: 10px 0;
+   
   }
   .nav-list {
     display: none;
@@ -162,6 +164,7 @@ ul, li {
   .nav-list a {
     margin: 0;
     padding: 10px;
+   
   }
   .nav-list a:hover {
     padding: 10px;
@@ -280,6 +283,7 @@ ul, li {
    }
    
    @media (width: 414px) and (height: 896px) {
+   
     
    }
    @media (width: 768px) and (height: 1024px) {
@@ -291,6 +295,14 @@ ul, li {
    @media (width: 912px) and (height: 1368px) {
     .centered-links{
       margin-right: -20px;
+    }
+    
+   }
+   @media (width: 375px) and (height: 667px) {
+    .centered-links{
+    
+      margin-top: 10px;
+      margin-left: 9px;
     }
     
    }

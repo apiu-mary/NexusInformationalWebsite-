@@ -1,32 +1,32 @@
-name: React App Boiler-plate
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-jobs:
-  build:
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+# name: React App Boiler-plate
+# on:
+#   push:
+#     branches:
+#       - main
+#   pull_request:
+#     branches:
+#       - main
+# jobs:
+#   build:
+#     runs-on: ubuntu-20.04
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
       
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '18'
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: '18'
           
-      - name: Install Packages
-        working-directory: nexus-informational
-        run: npm install
+#       - name: Install Packages
+#         working-directory: nexus-informational
+#         run: npm install
 
-      - name: Build
-        working-directory: nexus-informational
-        run: npm run build
+#       - name: Build
+#         working-directory: nexus-informational
+#         run: npm run build
       
-      - name: Run Tests
-        working-directory: nexus-informational
-        run: npm test
+#       - name: Run Tests
+#         working-directory: nexus-informational
+#         run: npm test
 

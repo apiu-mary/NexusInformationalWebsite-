@@ -3,8 +3,9 @@
     background-color: #E9F2FB;
     margin-top: -3%;
     justify-content: space-between;
-    padding: 20px ;
+    
     margin-top: 30%;
+    margin-right: 1%;
     
 }
 .body{
@@ -218,6 +219,15 @@
         display: block; 
     }
 }
+@media screen and (max-width: 909px) {
+    .body{
+        margin-top: -5%;
+        background-color: rgb(233, 242, 251);
+        height: auto;
+        
+    }
+    
+    }
 @media screen and (max-width: 1440px){
     .body{
         margin-top: -5%;
@@ -294,3 +304,575 @@
         display: block; 
     }
 }
+
+  @media (width: 1280px) and (height: 800px) {
+    .title{
+    margin-right: 20%;
+    }
+    
+   
+   }
+   @media (width: 375px) and (height: 667px) {
+    .title{
+    font-size: 20px;
+    }
+    
+   
+   }
+  
+   @media (width: 414px) and (height: 896px) {
+    .title{
+    font-size: 20px;
+    }
+    
+   
+   }
+   @media (width: 390px) and (height: 844px) {
+    .title{
+    font-size: 20px;
+    }
+    
+   
+   }
+   @media (width: 393px) and (height: 851px) {
+    .title{
+    font-size: 20px;
+    }
+    
+   
+   }
+   @media (width: 360px) and (height: 740px) {
+    .title{
+    font-size: 20px;
+    }
+    
+   
+   }
+   @media (width: 412px) and (height: 915px) {
+    .title{
+    font-size: 20px;
+    }
+    
+   
+   }
+   @media (width: 375px) and (height: 667px) {
+    .title{
+    font-size: 20px;
+    }
+    
+   
+   }
+   @media (width: 280px) and (height: 653px) {
+    .title{
+    font-size: 18px;
+    }
+    
+   
+   }
+   @media (width: 412px) and (height: 914px) {
+    .title{
+    font-size: 15px;
+    }
+    
+   
+   }
+ 
+   @media (width: 1280px) and (height: 800px) {
+    .title{
+    font-size: 25px;
+ 
+    }
+  
+.about {
+    display: flex;
+    background-color: #E9F2FB;
+    margin-top: -3%;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30%;
+  
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+.square1 {
+    width: 400px;
+    height: 400px;
+    margin-top: -16%;
+    margin-left: 60%;
+    background-color: #2B39BD;
+}
+
+.square2 {
+    width: 400px;
+    height: 400px;
+    margin-top: -205%;
+    margin-left: 25%;
+    background-color: black;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    margin-top: -249%;
+   
+    border-radius: 400px;
+    background-color: rgb(233, 230, 230);
+    filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
+}
+
+.title {
+    margin-left: 21%;
+    margin-top: -1%;
+    padding: auto;
+    font-size: 40px;
+    font-family: 'Halant';
+    color: #2B39BD;
+    font-weight: bold;
+}
+
+.text {
+    width: 50%;
+    padding-left: 10%;
+    font-size: 24.5px;
+    margin-top: 1%;
+    font-family: 'Halant';
+    line-height: 2;
+}
+
+.pic {
+    margin-top: 3.5%;
+    margin-left: 17.9%;
+ 
+}
+
+.shapes {
+    padding-right: 10%;
+    margin-top: 4%;
+    margin-top: -39%;
+    margin-left: 40%;
+    width: 10%;
+}
+
+    
+   
+   }
+
+   @media (width: 1024px) and (height: 600px) {   
+.about {
+    display: flex;
+    background-color: #E9F2FB;
+    margin-top: -3%;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30%;
+   
+  
+   
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+.square1 {
+    width: 300px;
+    height: 300px;
+    margin-left: 60%;
+    background-color: #2B39BD;
+}
+
+.square2 {
+    width: 300px;
+    height: 300px;
+    margin-top: -205%;
+    margin-left: 25%;
+    background-color: black;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    margin-top: -249%;
+   
+    border-radius: 400px;
+    background-color: rgb(233, 230, 230);
+    filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
+}
+
+.title {
+    margin-left: 1%;
+    margin-top: -1%;
+    padding: auto;
+    font-size: 40px;
+    font-family: 'Halant';
+    color: #2B39BD;
+    font-weight: bold;
+}
+
+.text {
+    width: 50%;
+  
+    font-size: 25px;
+    margin-top: 1%;
+    font-family: 'Halant';
+    line-height: 2;
+    margin-left: -0.9%;
+}
+
+.pic {
+    margin-top: 3.5%;
+    margin-left: 17.9%;
+ 
+}
+
+.shapes {
+    padding-right: 10%;
+    margin-top: 4%;
+    margin-top: -69%;
+    margin-left: 35%;
+    width: 10%;
+}
+
+    
+   
+   }
+   @media (width: 280px) and (height: 653px) {
+   
+    
+
+
+.square1 {
+    width: 200px;
+    height: 200px;
+    margin-top: 390%;
+    margin-left: -150%;
+    background-color: #2B39BD;
+} 
+
+.square2 {
+    width: 200px;
+    height: 200px;
+    margin-top: -655%;
+    margin-left: -299%;
+    background-color: black;
+} 
+
+ .circle {
+    width: 200px;
+    height: 200px;
+    margin-top: -649%;
+   margin-left: -400%;
+    border-radius: 400px;
+    background-color: rgb(233, 230, 230);
+    filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
+} 
+
+
+
+
+
+.shapes {
+    padding-right: 10%;
+    margin-top: 4%;
+    margin-top: -39%;
+    margin-left: -14%;
+    width: 10%;
+} 
+
+    
+   
+   }
+   @media (width: 820px) and (height: 1180px) {
+    
+    .about {
+        display: flex;
+        background-color: #E9F2FB;
+        margin-top: -3%;
+        justify-content: space-between;
+        padding: 20px;
+        margin-top: 40%;
+      
+        
+    }
+    
+    .body {
+        overflow-x: hidden;
+    }
+   
+    
+    .square1 {
+        width: 400px;
+        height: 400px;
+        margin-top: 600%;
+        margin-left: 60%;
+        background-color: #2B39BD;
+    }
+    
+    .square2 {
+        width: 400px;
+        height: 400px;
+        margin-top: -295%;
+        margin-left: 25%;
+        background-color: black;
+    }
+    
+    .circle {
+        width: 400px;
+        height: 400px;
+        margin-top: -279%;
+       
+        border-radius: 400px;
+        background-color: rgb(233, 230, 230);
+        filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
+    }
+    
+    .title {
+        margin-left: 21%;
+        margin-top: -1%;
+        padding: auto;
+        font-size: 40px;
+        font-family: 'Halant';
+        color: #2B39BD;
+        font-weight: bold;
+    }
+    
+    .text {
+     
+        padding-left: 10%;
+        font-size: 30px;
+        margin-top: 1%;
+        font-family: 'Halant';
+        line-height: 2;
+    }
+    
+    .pic {
+        margin-top: 3.5%;
+        margin-left: 17.9%;
+     
+    }
+    
+    .shapes {
+        padding-right: 10%;
+        margin-top: 4%;
+        margin-top: -59%;
+        margin-left: -48%;
+        width: 10%;
+    }
+    
+        
+       
+       }
+   
+       @media (width: 280px) and (height: 653px) {
+   
+     
+    
+    
+    .square1 {
+        width: 200px;
+        height: 200px;
+        margin-top: 390%;
+        margin-left: -150%;
+        background-color: #2B39BD;
+    } 
+    
+    .square2 {
+        width: 200px;
+        height: 200px;
+        margin-top: -655%;
+        margin-left: -299%;
+        background-color: black;
+    } 
+    
+     .circle {
+        width: 200px;
+        height: 200px;
+        margin-top: -649%;
+       margin-left: -400%;
+        border-radius: 400px;
+        background-color: rgb(233, 230, 230);
+        filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
+    } 
+    
+    
+    
+    
+    
+    .shapes {
+        padding-right: 10%;
+        margin-top: 4%;
+        margin-top: -39%;
+        margin-left: -14%;
+        width: 10%;
+    } 
+    
+        
+       
+       }
+       @media (width: 768px) and (height: 1024px) {
+        
+        .about {
+            display: flex;
+            background-color: #E9F2FB;
+            margin-top: -3%;
+            justify-content: space-between;
+            padding: 20px;
+            margin-top: 40%;
+          
+            
+        }
+        
+        .body {
+            overflow-x: hidden;
+        }
+       
+        
+        .square1 {
+            width: 400px;
+            height: 400px;
+            margin-top: 600%;
+            margin-left: 60%;
+            background-color: #2B39BD;
+        }
+        
+        .square2 {
+            width: 400px;
+            height: 400px;
+            margin-top: -295%;
+            margin-left: 25%;
+            background-color: black;
+        }
+        
+        .circle {
+            width: 400px;
+            height: 400px;
+            margin-top: -279%;
+           
+            border-radius: 400px;
+            background-color: rgb(233, 230, 230);
+            filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
+        }
+        
+        .title {
+            margin-left: 1%;
+            margin-top: -1%;
+            padding: auto;
+            font-size: 30px;
+            font-family: 'Halant';
+            color: #2B39BD;
+            font-weight: bold;
+        }
+        
+        .text {
+            /* width: 50%; */
+            padding-left: 10%;
+            font-size: 30px;
+            margin-top: 1%;
+            font-family: 'Halant';
+            line-height: 2;
+        }
+        
+        .pic {
+            margin-top: 3.5%;
+            margin-left: 17.9%;
+         
+        }
+        
+        .shapes {
+            padding-right: 10%;
+            margin-top: 4%;
+            margin-top: -59%;
+            margin-left: -48%;
+            width: 10%;
+        }
+        
+            
+           
+           }
+           @media (width: 912px) and (height: 1368px) {
+         
+
+            .about {
+                display: flex;
+                background-color: #E9F2FB;
+                margin-top: -3%;
+                justify-content: space-between;
+                padding: 20px;
+                margin-top: 40%;
+                margin-bottom: 50%;
+            }
+            
+            .body {
+                overflow-x: hidden;
+            }
+            
+            .square1 {
+                width: 400px;
+                height: 400px;
+                margin-top: -16%;
+                margin-left: 60%;
+                background-color: #2B39BD;
+            }
+            
+            .square2 {
+                width: 400px;
+                height: 400px;
+                margin-top: -255%;
+                margin-left: 25%;
+                background-color: black;
+            }
+            
+            .circle {
+                width: 400px;
+                height: 400px;
+                margin-top: -349%;
+               
+                border-radius: 400px;
+                background-color: rgb(233, 230, 230);
+                filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
+            }
+            
+            .title {
+                margin-left: 1%;
+                margin-top: -1%;
+                padding: auto;
+                font-size: 40px;
+                font-family: 'Halant';
+                color: #2B39BD;
+                font-weight: bold;
+            }
+            
+            .text {
+               
+                padding-left: 10%;
+                font-size: 27px;
+                margin-top: 1%;
+                font-family: 'Halant';
+                line-height: 2;
+            }
+            
+            .pic {
+                margin-top: 3.5%;
+                margin-left: 17.9%;
+             
+            }
+            
+            .shapes {
+                padding-right: 10%;
+                margin-top: 4%;
+                margin-top: 3%;
+                margin-left: -40%;
+                width: 10%;
+            }
+            
+                
+               
+               }
+        
+         
+       
+
+

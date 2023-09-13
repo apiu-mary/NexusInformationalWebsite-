@@ -7,7 +7,9 @@ import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    
+    <footer className="footer" id='footer'>
+
       <div className="footer-logo">
         <img id='logo' src="img/images/nexuswhite.png" alt="" /> <br /> <br />
         <FontAwesomeIcon icon={faFacebook} className="fa-2x facebook-icon-text" />
@@ -34,7 +36,7 @@ const Footer = () => {
       <div className="footer-copyright">
         <p>&copy; 2023. All rights reserved by Nexus</p>
       </div>
-      
+     
     </footer>
   );
 };

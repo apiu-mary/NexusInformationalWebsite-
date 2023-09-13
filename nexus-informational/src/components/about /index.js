@@ -4,6 +4,7 @@ import './style.css'
 const About = ()=> {
   return (
     <div>
+      <section className='About Us' id='About Us'> 
       <div className='body'>
     <div className='about'>
       <div>
@@ -26,6 +27,7 @@ const About = ()=> {
      </div>
      </div>
     </div>
+    </section>
     </div>
   )
 };
