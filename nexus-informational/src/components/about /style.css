@@ -4,8 +4,11 @@
     margin-top: -3%;
     justify-content: space-between;
     padding: 20px ;
-    margin-top: 23%;
+    margin-top: 30%;
     
+}
+.body{
+    overflow-x: h;
 }
 .square1{
     width: 400px;

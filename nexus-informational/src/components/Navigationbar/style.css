@@ -18,7 +18,7 @@ ul, li {
 .logo-img  {
   width:100px;
   margin-top: 10%;
-  margin-left: -110%;
+  margin-left: 72%;
 }
 
 .hamburger-menu {
@@ -70,6 +70,7 @@ ul, li {
   font-size: 20px;
   margin-right: -28%;
   text-decoration: none;
+  margin-right: -10px;
 }
 .centered-links a {
   color: black;
@@ -82,6 +83,7 @@ ul, li {
   color: white;
   border-radius: 5px;
   padding: 10px 30px;
+  font-size: 20px;
 }
 .nav-list {
   display: flex;
@@ -108,6 +110,7 @@ ul, li {
   border-radius: 5px;
   padding: 10px 20px;
 }
+
 @media (max-width: 760px) {
   .hamburger-menu {
     display: flex;
@@ -184,6 +187,9 @@ ul, li {
   .close-icon span {
     height: 2px;
   }
+}
+.body{
+    overflow-x: h;
 }
 @media (max-width: 834px) {
  
@@ -264,7 +270,30 @@ ul, li {
   }
   @media (width: 1024px) and (height: 600px) {
     .centered-links{
-     margin-right: -40px;
+     margin-right: -10px;
     }
+    .footer{
+      font-size: 15px;
+    }
+    
+
    }
+   
+   @media (width: 414px) and (height: 896px) {
+    
+   }
+   @media (width: 768px) and (height: 1024px) {
+    .centered-links{
+      margin-right: -20px;
+    }
+    
+   }
+   @media (width: 912px) and (height: 1368px) {
+    .centered-links{
+      margin-right: -20px;
+    }
+    
+   }
+   
+
 

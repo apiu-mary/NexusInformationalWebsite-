@@ -3,15 +3,20 @@
   height: 497px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -3%;
+  margin-top: 1%;
   position: absolute;
-  width: 97.9%;
+  width: 97%;
   align-items: center;
   justify-content: center;
   padding: 0 20px;
+  margin-left: 2px; 
   display: flex;
 
  
+}
+.body{
+  overflow-x: hidden;
+  
 }
 
 .background h1{
@@ -70,6 +75,7 @@
 
 @media screen and (max-width: 280px) {
   .background {
+    overflow-x: hidden;
   width: 100%;
   background-size: contain;
   }
