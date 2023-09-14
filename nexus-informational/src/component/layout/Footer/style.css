@@ -420,6 +420,11 @@
                      .footer-copyright{
                       margin-right: 63px;
                      }
+                     .footer{
+                      /* position: relative; */
+                      margin-top: 120%;
+                     }
+                     
                       
                       }
                       @media (width: 1280px) and (height: 800px) {

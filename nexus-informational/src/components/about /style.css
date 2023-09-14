@@ -1,15 +1,12 @@
 .about{
     display: flex;
+    width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     background-color: #E9F2FB;
     margin-top: -3%;
     justify-content: space-between;
-    
-    margin-top: 30%;
+    margin-top: 3%;
     margin-right: 1%;
     
-}
-.body{
-    overflow-x: h;
 }
 .square1{
     width: 400px;
@@ -57,7 +54,7 @@
     
 }
 .shapes{
-    padding-right: 10%;
+    padding-right: 7%;
     margin-top: 4%;
 }
 @media screen and (max-width: 280px){
@@ -66,6 +63,9 @@
         align-items: center;
        
     }
+    .scrollable-container{
+        margin-top: -25em;
+       }
 
     .square1,
     .square2,
@@ -308,14 +308,23 @@
   @media (width: 1280px) and (height: 800px) {
     .title{
     margin-right: 20%;
-    }
     
+    }
+    .scrollable-container{
+        margin-top: -5em;
+       }
    
+    .shapes{
+        margin-left: 10%;
+    }
    }
    @media (width: 375px) and (height: 667px) {
     .title{
     font-size: 20px;
     }
+   .scrollable-container{
+    margin-top: -23em;
+   }
     
    
    }
@@ -324,6 +333,9 @@
     .title{
     font-size: 20px;
     }
+    .scrollable-container{
+        margin-top: -7em;
+       }
     
    
    }
@@ -331,6 +343,9 @@
     .title{
     font-size: 20px;
     }
+    .scrollable-container{
+        margin-top: -23em;
+       }
     
    
    }
@@ -338,6 +353,9 @@
     .title{
     font-size: 20px;
     }
+    .scrollable-container{
+        margin-top: -23em;
+       }
     
    
    }
@@ -345,6 +363,9 @@
     .title{
     font-size: 20px;
     }
+    .scrollable-container{
+        margin-top: -23.5em;
+       }
     
    
    }
@@ -352,6 +373,9 @@
     .title{
     font-size: 20px;
     }
+    .scrollable-container{
+        margin-top: -23em;
+       }
     
    
    }
@@ -373,23 +397,26 @@
     .title{
     font-size: 15px;
     }
+    .scrollable-container{
+        margin-top: -23em;
+       }
     
    
    }
- 
+  
    @media (width: 1280px) and (height: 800px) {
     .title{
     font-size: 25px;
- 
+
     }
-  
+ 
 .about {
     display: flex;
     background-color: #E9F2FB;
-    margin-top: -3%;
+    /* margin-top: -3%; */
     justify-content: space-between;
     padding: 20px;
-    margin-top: 30%;
+    /* margin-top: 30%; */
   
 }
 
@@ -435,7 +462,7 @@
 
 .text {
     width: 50%;
-    padding-left: 10%;
+
     font-size: 24.5px;
     margin-top: 1%;
     font-family: 'Halant';
@@ -449,7 +476,7 @@
 }
 
 .shapes {
-    padding-right: 10%;
+    padding-right: 22%;
     margin-top: 4%;
     margin-top: -39%;
     margin-left: 40%;
@@ -462,48 +489,50 @@
 
    @media (width: 1024px) and (height: 600px) {   
 .about {
-    display: flex;
+    /* display: flex; */
     background-color: #E9F2FB;
-    margin-top: -3%;
+    width: auto; 
+    /* margin-top: -30%; */
+    /* width: auto;
+    font-size: 10%; */
+    /* height: auto; */
+    position: absolute; 
     justify-content: space-between;
     padding: 20px;
-    margin-top: 30%;
-   
-  
-   
+      
 }
+.scrollable-container{
+    margin-top: 18em;
+   }
 
-.body {
-    overflow-x: hidden;
-}
+
 
 .square1 {
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     margin-left: 60%;
     background-color: #2B39BD;
 }
 
 .square2 {
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     margin-top: -205%;
     margin-left: 25%;
     background-color: black;
 }
 
 .circle {
-    width: 200px;
-    height: 200px;
-    margin-top: -249%;
-   
+    width: 270px;
+    height: 270px;
+    margin-top: -215%;
     border-radius: 400px;
     background-color: rgb(233, 230, 230);
     filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
 }
 
 .title {
-    margin-left: 1%;
+    margin-left: -50%;
     margin-top: -1%;
     padding: auto;
     font-size: 40px;
@@ -515,7 +544,7 @@
 .text {
     width: 50%;
   
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 1%;
     font-family: 'Halant';
     line-height: 2;
@@ -530,9 +559,8 @@
 
 .shapes {
     padding-right: 10%;
-    margin-top: 4%;
-    margin-top: -69%;
-    margin-left: 35%;
+    margin-top: -51%;
+    margin-left: 45%;
     width: 10%;
 }
 
@@ -541,7 +569,7 @@
    }
    @media (width: 280px) and (height: 653px) {
    
-    
+ 
 
 
 .square1 {
@@ -585,22 +613,33 @@
     
    
    }
+   @media (width: 320px) and (height: 901px) {
+    
+    .about {
+        display: flex;
+        background-color: #E9F2FB;
+        justify-content: space-between;
+        padding: 20px;
+       
+      
+    }
+}
    @media (width: 820px) and (height: 1180px) {
     
     .about {
         display: flex;
         background-color: #E9F2FB;
-        margin-top: -3%;
         justify-content: space-between;
         padding: 20px;
-        margin-top: 40%;
       
-        
     }
     
     .body {
         overflow-x: hidden;
     }
+    .scrollable-container{
+        margin-top: 0em;
+       }
    
     
     .square1 {
@@ -630,7 +669,7 @@
     }
     
     .title {
-        margin-left: 21%;
+        margin-left: 0%;
         margin-top: -1%;
         padding: auto;
         font-size: 40px;
@@ -640,7 +679,7 @@
     }
     
     .text {
-     
+        
         padding-left: 10%;
         font-size: 30px;
         margin-top: 1%;
@@ -668,7 +707,7 @@
    
        @media (width: 280px) and (height: 653px) {
    
-     
+   
     
     
     .square1 {
@@ -717,13 +756,14 @@
         .about {
             display: flex;
             background-color: #E9F2FB;
-            margin-top: -3%;
             justify-content: space-between;
             padding: 20px;
-            margin-top: 40%;
-          
+           
             
         }
+        .scrollable-container{
+            margin-top: -1em;
+           }
         
         .body {
             overflow-x: hidden;
@@ -767,7 +807,7 @@
         }
         
         .text {
-            /* width: 50%; */
+          
             padding-left: 10%;
             font-size: 30px;
             margin-top: 1%;
@@ -788,9 +828,7 @@
             margin-left: -48%;
             width: 10%;
         }
-        
-            
-           
+         
            }
            @media (width: 912px) and (height: 1368px) {
          
@@ -798,12 +836,15 @@
             .about {
                 display: flex;
                 background-color: #E9F2FB;
-                margin-top: -3%;
+                /* margin-top: -3%; */
                 justify-content: space-between;
                 padding: 20px;
-                margin-top: 40%;
+                /* margin-top: 40%; */
                 margin-bottom: 50%;
             }
+            .scrollable-container{
+                margin-top: 7em;
+               }
             
             .body {
                 overflow-x: hidden;
@@ -874,5 +915,6 @@
         
          
        
+   
 
 
