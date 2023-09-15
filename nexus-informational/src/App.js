@@ -6,6 +6,7 @@ import Navbar from './components/Navigationbar';
 
 
 import Team from './components/team';
+import Product from './components/Product';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
+      <Product/>
       <Team/>
       <Footer/>
       

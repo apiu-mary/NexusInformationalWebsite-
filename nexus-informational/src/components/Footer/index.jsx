@@ -21,7 +21,7 @@ const Footer = () => {
         <p>niunexuss@gmail.com</p>
         <p>Nairobi, Kenya</p>
       </div>
-      <div className="footer-support">
+      <div className="footer-support" >
         <h3>Support</h3>
         <p>FAQs</p>
         <p>Terms</p>
@@ -36,7 +36,7 @@ const Footer = () => {
       <div className="footer-copyright">
         <p>&copy; 2023. All rights reserved by Nexus</p>
       </div>
-     
+    
     </footer>
   );
 };

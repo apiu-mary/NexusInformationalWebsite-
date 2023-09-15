@@ -11,11 +11,11 @@ const Navbar = () => {
         <img src="/images/Logo.png" alt="" />
       </span>
       <div className={`nav-items ${isOpen && "open"}`} data-testid="nav-items">
-        <a href="/our services">Home</a>
-        <a href="/our team">About Us</a>
-        <a href="/our team">What We Do</a>
-        <a href="/our team">Our Team</a>
-        <a href="/contact us">Contact Us</a>
+        <a href="#Home">Home</a>
+        <a href="#About Us">About Us</a>
+        <a href="#Our Services">What We Do</a>
+        <a href="#Our Team">Our Team</a>
+        <a href="#footer">Contact Us</a>
        
       </div>
       <div
@@ -24,7 +24,7 @@ const Navbar = () => {
         data-testid="nav-toggle"
       >
         <div className="bar"></div>
-        {isOpen && <div className="overlay" onClick={toggleNav}></div>}
+        {isOpen && <div className="open" onClick={toggleNav}></div>}
       </div>
     </div>
   );

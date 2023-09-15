@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    padding-bottom: 30px;
+    margin-bottom: -400px;
   }
   .team-title {
     color: #2B39BD;
@@ -208,14 +210,17 @@
            
     } 
    .bottom-cards{
-    margin-top: -50%;
+    margin-top: 7%;
    }
- 
+   .team-section {
+    margin-bottom: -110%; /* Remove the negative margin for this screen size */
+  }
     .card {
     width: calc(40% - 20px);
       margin-left: 2%;
       margin-right: 2%;
-      margin-top: 50%;
+      margin-top: -2%;
+     
     }
     .member-image {
         width: 130px;

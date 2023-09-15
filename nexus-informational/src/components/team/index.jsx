@@ -14,7 +14,7 @@ const TeamMember = ({ imageSrc, name, role }) => {
 const Team = () => {
   return (
     <section className="team-section">
-      <h1 className="team-title">Our Team</h1>
+      <h1 className="team-title" id="Our Team">Our Team</h1>
       <div className="top-cards">
         <TeamMember
           imageSrc="/images/alice.jpg"
@@ -31,13 +31,14 @@ const Team = () => {
           name="Rachel Tuyishimire"
           role="Software Developer"
         />
+        
       </div>
       <div className="bottom-cards">
-        <TeamMember
+        {/* <TeamMember
           imageSrc="/images/maria.jpg"
           name="Mariagoretti Kimani"
           role="Software Developer"
-        />
+        /> */}
         <TeamMember
           imageSrc="/images/mary.jpg"
           name="Mary Apiu Agou"

@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center; 
   align-items: center; 
-  height: 500px; 
+  height: 450px; 
   text-align: center; 
 }
 .hide-background {
@@ -18,11 +18,13 @@
   font-size: 64px;
   color: #FFFFFF;
   text-align: center;
+  font-family: "Halant";
   margin: 0;
 }
 @media screen and (max-width: 768px) {
   .background {
     width: 100%;
+    height: 250px; 
     /* background-size: contain; */
     /* z-index: -1; */
   }

@@ -50,7 +50,9 @@
 }
 .pic{
     margin-top: 3.5%;
-    margin-left: 17.9%;
+    margin-left: 13%;
+    width: 75%;
+    height: 37vh;
     
 }
 .shapes{
@@ -91,6 +93,7 @@
     .pic {
         margin-top: 5%;
         margin-left: 0;
+       
     }
 
     .shapes {
@@ -136,6 +139,8 @@
     .pic {
         margin-top: 5%;
         margin-left: 0;
+        width: 35%;
+        height: 21vh;
     }
 
     .shapes {

@@ -6,13 +6,10 @@
   display: flex;
   flex-wrap: wrap;
   font-size: 20px;
-
   justify-content: space-between;
   text-align: left;
 
-  
-
-  margin-top: 500px;
+  margin-top: 20px;
 }
 .body{
   overflow-x: hidden;
@@ -159,12 +156,12 @@
   }
 }
 
-
-@media (width: 1024px) and (height: 600px) {
+/* @media (width: 1024px) and (height: 600px) {
   .footer{
     font-size: 20px;
+    margin-top: -200em;
   }
-}
+} */
 
 @media (width: 820px) and (height: 1180px) {
   .footer {
@@ -252,9 +249,6 @@
                 margin-left: 5px;
               } @media (width: 280px) and (height: 653px) {
    
-                /* Default styles for 1280x800 screens */
-            
-            
             .square1 {
                 width: 200px;
                 height: 200px;
@@ -281,19 +275,13 @@
                 filter: drop-shadow(4px 4px 8px rgb(233, 230, 230));
             } 
             
-            
-            
-            
-            
-            .shapes {
+             .shapes {
                 padding-right: 10%;
                 margin-top: 4%;
                 margin-top: -39%;
                 margin-left: -14%;
                 width: 10%;
             } 
-            
-                
                
                }
                @media (width: 820px) and (height: 1180px) {
@@ -312,7 +300,6 @@
                 .body {
                     overflow-x: hidden;
                 }
-               
                 
                 .square1 {
                     width: 400px;
@@ -372,19 +359,11 @@
                     margin-left: -48%;
                     width: 10%;
                 }
-                
-                    
-                   
+                 
                    }
                
               }
-              /* @media (width: 768px) and (height: 1024px) {
-
-                .footer-logo{
-                  margin-left: 5px;
-                }
-               
-                } */
+         
                 @media (width: 540px) and (height: 720px) {
 
                   .footer-logo{
@@ -403,7 +382,7 @@
                         margin-left: 5px;
                       }
                       }
-                      @media (width: 1024px) and (height: 600px) {
+                      /* @media (width: 1024px) and (height: 600px) {
                      .footer-support, .footer-contact{
                       margin-left: -30px;
                     
@@ -415,12 +394,12 @@
                       margin-right: 63px;
                      }
                      .footer{
-                      /* position: relative; */
-                      margin-top: 120%;
+                      margin-top: -40px;
                      }
                      
+                     
                       
-                      }
+                      }  */
                       @media (width: 1280px) and (height: 800px) {
                         .footer-support, .footer-contact{
                          margin-left: -30px;
@@ -434,6 +413,19 @@
                         }
                          
                          }
+                         /* @media (width: 1024px) and (height: 600px) {
+                          .footer-support, .footer-contact{
+                           margin-left: -30px;
+                         
+                          }
+                          .footer-newsletter{
+                           margin-left: 90px;
+                          }
+                          .footer-copyright{
+                           margin-right: 120px;
+                          }
+                           
+                           } */
                          @media (width: 912px) and (height: 1368px) {
                           .footer-support, .footer-contact{
                             margin-left: -30px;
@@ -447,6 +439,25 @@
                            }
                             
                             }
+                            @media (width: 1024px) and (height: 600px) {
+                              .footer {
+                                margin-top: -90%;
+                              }
+                            }
+                              
+                              /* .footer-support, .footer-contact {
+                                margin-left: -30px;
+                              } */
+                              
+                              /* .footer-newsletter {
+                                margin-left: 90px;
+                              } */
+                              
+                              /* .footer-copyright {
+                                margin-right: 120px;
+                              }
+                            } */
+                            
                    
                          
                            
