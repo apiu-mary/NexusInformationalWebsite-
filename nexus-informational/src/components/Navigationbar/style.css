@@ -1,7 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Hind+Madurai&family=Nunito:wght@300;400&display=swap');
 .Navbar {
-  margin-top: 1.5%;
+  margin-top: -1%;
   height: 100px;
   display: flex;
   margin-right: 90px;
@@ -163,7 +161,7 @@
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .Navbar > .nav-items > a {
-    font-size: 13px;
+    font-size: 16px;
     margin: 8px;
     padding: 8px;
   }
@@ -228,5 +226,12 @@
     position: relative;
     /* margin-right: -60%; */
   
+  }
+}
+@media (min-width: 820px) and (max-width: 1180px){
+  .Navbar > .nav-items > a {
+    font-size: 17px;
+    margin: 8px;
+    padding: 8px;
   }
 }

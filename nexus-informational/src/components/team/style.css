@@ -1,0 +1,263 @@
+.team-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin-bottom: -400px;
+  }
+  .team-title {
+    color: #2B39BD;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    margin-top: 20px;
+  }
+  .top-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  .bottom-cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16%;
+  }
+  
+  .card {
+    background-color: #E1EBE4;
+    border-radius: 20px;
+    padding: 50px;
+    padding-bottom: 110px;
+    text-align: center;
+    width: calc(15.33% - 20px);
+    height: auto;
+    margin-bottom: 0;
+    flex-basis: calc(23.33% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .member-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;
+  }
+  
+  .member-name {
+    margin: 10px 0;
+    color: #000000;
+    font-size: 26px;
+  }
+  
+  .member-role {
+    margin: 0;
+    color: #000000;
+    font-size: 26px;
+  }
+  
+  @media (max-width: 768px) {
+    .team-cards {
+      max-width: 100%;
+    }
+    .card {
+      width: calc(50% - 20px);
+      height: auto;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    .top-cards,
+    .bottom-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    .bottom-cards{
+       gap: 22px;
+       margin-top: -0.9em;
+    }
+    .member-image {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto 20px;
+      }
+      .member-name {
+        margin: 10px 0;
+        color: #000000;
+        font-size: 20px;
+      }
+      
+      .member-role {
+        margin: 0;
+        color: #000000;
+        font-size: 20px;
+      }
+  }
+  
+@media (width: 820px) and (height: 1180px) {
+    .team-cards {
+      max-width: 100%;
+    }
+  
+    .top-cards {
+     gap: 15px;
+    }
+    .card {
+      width: calc(30% - 20px);
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .member-image {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto 20px;
+      }
+  }
+ 
+@media (width: 912px) and (height: 1368px) {
+    .team-cards {
+      max-width: 100%; 
+    }
+    .top-cards {
+      gap: 20px;
+    }
+    .card {
+      width: calc(30% - 20px);
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    .member-image {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto 20px;
+      }
+  }
+
+  @media (width: 540px) and (height: 720px) {
+    .team-cards {
+      max-width: 100%; 
+    }
+    .top-cards {
+      gap: 10px;
+    }
+    .card {
+      width: calc(50% - 10px); 
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .member-image {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto 20px;
+      }
+  }
+
+@media (width: 280px) and (height: 653px) {
+    .team-cards {
+      max-width: 100%; 
+    }
+    .top-cards {
+      gap: 5px;
+    }
+    .card {
+      width: calc(50% - 5px); 
+      margin-left: 2.5px;
+      margin-right: 2.5px;
+    } 
+    .member-image {
+     width: 80px;
+      height: 80px;
+    }
+    .member-name {
+        margin: 10px 0;
+        color: #000000;
+        font-size: 20px;
+      }
+      
+      .member-role {
+        margin: 0;
+        color: #000000;
+        font-size: 20px;
+      }
+  }
+   
+@media (width: 1024px) and (height: 600px) {
+    .team-cards {
+      max-width: 100%; 
+           
+    } 
+   .bottom-cards{
+    margin-top: 7%;
+   }
+   .team-section {
+    margin-bottom: -110%; /* Remove the negative margin for this screen size */
+  }
+    .card {
+    width: calc(40% - 20px);
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-top: -2%;
+     
+    }
+    .member-image {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto 20px;
+      }
+      .member-name {
+        margin: 10px 0;
+        color: #000000;
+        font-size: 15px;
+      }
+      .member-role {
+        margin: 0;
+        color: #000000;
+        font-size: 15px;
+      }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: calc(100% - 10px); 
+      flex-basis: unset; 
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  @media (min-width: 1280px) {
+    .team-cards {
+      max-width: 1280px; 
+    }
+    .card {
+      width: calc(200% - 20px);
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+  }
+  
+  
