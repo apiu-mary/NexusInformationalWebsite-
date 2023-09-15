@@ -205,12 +205,17 @@
 @media (width: 1024px) and (height: 600px) {
     .team-cards {
       max-width: 100%; 
-         
+           
     } 
+   .bottom-cards{
+    margin-top: -50%;
+   }
+ 
     .card {
     width: calc(40% - 20px);
       margin-left: 2%;
       margin-right: 2%;
+      margin-top: 50%;
     }
     .member-image {
         width: 130px;

@@ -1,25 +1,18 @@
 .background {
   background-image: url('/public/images/minigrid.png');
-  height: 497px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 1%;
-  /* position: absolute; */
-  width: 97.5%;
-  align-items: center;
-  justify-content: center;
-  padding: 0 20px;
-  margin-left: 2px;
+  /* margin-top: -1%; */
+  width: 100%; 
   display: flex;
-  z-index: 999;
-  opacity: 1; 
-  transition: opacity 0.3s ease; 
+  justify-content: center; 
+  align-items: center; 
+  height: 500px; 
+  text-align: center; 
 }
-
 .hide-background {
-  opacity: 1.2; /* Change opacity to fully transparent */
+  opacity: 1.2;
 }
-
 .background h1 {
   font-weight: 600;
   font-size: 64px;
@@ -27,170 +20,152 @@
   text-align: center;
   margin: 0;
 }
-
 @media screen and (max-width: 768px) {
   .background {
-    width: 330px;
-    background-size: contain;
+    width: 100%;
+    /* background-size: contain; */
     /* z-index: -1; */
   }
   .background h1 {
-    font-size: 40px;
+    font-size: 35px;
     margin-left: auto;
     margin-right: auto;
-   
   }
-  
 }
-
 @media screen and (max-width: 480px) {
   .background h1 {
-    margin-top: -20%; 
+    margin-top: -20%;
   }
-  
 }
 @media (width: 414px) and (height: 896px) {
   .background h1 {
-    font-size: 40px; 
+    font-size: 40px;
     margin-top: -20%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
     width: 375px;
-    
-    
   }
 }
 @media (width: 390px) and (height: 844px) {
   .background h1 {
-    font-size: 21px; 
+    font-size: 21px;
     margin-top: -110%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
     width: 344px;
   }
-
 }
 @media (width: 360px) and (height: 740px) {
   .background h1 {
-    font-size: 25px; 
-    margin-top: -115%;
-    margin-left: 5%;  
+    font-size: 25px;
+    margin-top: -5%;
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
-    width: 320px;
+    /* width: 320px; */
+    height: 200px;
     z-index: -1;
-    
   }
- 
 }
 @media (width: 820px) and (height: 1180px) {
   .background h1 {
-    font-size: 40px; 
-    
-    margin-left: 5%;  
+    font-size: 40px;
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
-    width: 750px;
+    width: 850px;
   }
-
 }
 @media (width: 320px) and (height: 901px) {
   .background h1 {
-    font-size: 25px; 
+    font-size: 25px;
     margin-top: -150%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
     width: 270px;
   }
-
 }
 @media (width: 393px) and (height: 851px) {
   .background h1 {
-    font-size: 25px; 
+    font-size: 25px;
     margin-top: -105%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
     width: 350px;
   }
-  
-
 }
 @media (width: 412px) and (height: 915px) {
   .background h1 {
-    font-size: 25px; 
+    font-size: 25px;
     margin-top: -105%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
     width: 370px;
   }
-
 }
 @media (width: 820px) and (height: 1180px) {
   .background h1 {
-    font-size: 40px; 
+    font-size: 40px;
     margin-top: -1%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
-    width: 790px;
-    height: 240px;
+    width: 819px;
+    /* height: 240px; */
   }
-
 }
 @media (width: 768px) and (height: 1024px) {
   .background h1 {
-    font-size: 40px; 
+    font-size: 40px;
     margin-top: -5%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
-    width: 720px;
-    height: 240px;
+    width: 765px;
+    /* height: 240px; */
   }
-
 }
 @media (width: 540px) and (height: 720px) {
   .background h1 {
-    font-size: 40px; 
+    font-size: 40px;
     margin-top: -20%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
-    width: 498px;
+    width: 539px;
     height: 240px;
   }
-
 }
 @media (width: 280px) and (height: 653px) {
   .background h1 {
-    font-size: 20px; 
+    font-size: 20px;
     margin-top: -170%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
@@ -198,13 +173,12 @@
     width: 240px;
     /* height: 240px; */
   }
-
 }
 @media (width: 414px) and (height: 896px) {
   .background h1 {
-    font-size: 23px; 
+    font-size: 23px;
     margin-top: -30%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
@@ -213,82 +187,58 @@
     height: 240px;
     /* position: fixed; */
   }
-
 }
 @media (width: 1024px) and (height: 600px) {
   .background h1 {
-    font-size: 40px; 
+    font-size: 40px;
     margin-top: -2%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
-    width: 980px;
-    height: 240px;
+    width: 1013px;
+    /* height: 240px; */
     position: absolute;
-    
-   
   }
- 
-
 }
 @media (width: 1280px) and (height: 800px) {
   .background h1 {
-    font-size: 60px; 
+    font-size: 60px;
     margin-top: -2%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
   }
   .background{
-    width: 1236px;
+    width: 1276px;
     height: 440px;
   }
-
 }
 @media (width: 375px) and (height: 667px) {
   .background h1 {
-    font-size: 25px; 
+    font-size: 25px;
     margin-top: -120%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
 }
-
-
-
 }
 @media (width: 412px) and (height: 914px) {
   .background h1 {
-    font-size: 20px; 
+    font-size: 20px;
     margin-top: -100%;
-    margin-left: 5%;  
+    margin-left: 5%;
     margin-right: 13%;
     text-align: center;
-  
-
   }
 .background{
   width: 370px;
-  
 }
 }
-
 @media (width: 912px) and (height: 1368px) {
   .background{
-    width: 95.5%;
+    width: 99.9%;
     /* height: 40%; */
   }
-  
-  
-
 }
-
-  
-
-
-
-
-
-
