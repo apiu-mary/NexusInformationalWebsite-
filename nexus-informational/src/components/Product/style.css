@@ -3,6 +3,7 @@
     color: #2B39BD;
     font-weight: bold;
     text-align: center;
+    
   }
   
   .products {
@@ -11,6 +12,7 @@
     align-items: center;
     height: 40vh;
     background-color: #2B39BD;
+    
   }
   
   .products > div {
